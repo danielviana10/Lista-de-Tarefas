@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./tasks.js" defer></script>
+    <script src="./script.js" defer></script>
+    <title>JavaScript</title>
+</head>
+<body>
+    <header class="cabecario">
+        <ul class="listaCabecario">
+            <li>
+                MINHAS TAREFAS
+            </li>
+            <li>
+                <input type="text" placeholder="Pesquisar tarefa" class="inserir">
+            </li>
+        </ul>
+    </header>
+
+    <section class="primeiraSecao">
+        <div class="inserirTarefa">
+        <h2>Inserir tarefa</h2>
+        </div>
+        <ul class="ListaSecao">
+            <li class="primeiroInput">
+                <input type="text" placeholder="Inserir nova tarefa" class="inserir">
+            </li>
+            <li>
+                <select class="inserir" required>
+                    <option value="">Situação</option>
+                    <option value="Urgente" class="urgente">Urgente</option>
+                    <option value="Prioritária" class="prioritaria">Prioritária</option>
+                    <option value="Normal" class="normal">Normal</option>
+                </select>
+            </li>
+        </ul>
+        <div class="divBotao">
+            <button type="submit" class="botao">
+                Adicionar Tarefa na Lista
+            </button>
+        </div>
+    </section>
+
+    <section class="segundaSecao">
+        <div class="divTarefas">
+        <h2>Tarefas</h2>
+        </div>
+        <ul class="listaTarefas">
+        </ul>
+    </section>
+</body>
+</html>
